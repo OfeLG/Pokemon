@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Aplicación de Pokemon",
       initialRoute: "/",
-      routes: {"/": (BuildContext context) => Home()},
+      routes: {"/": (BuildContext context) => Home(title: "POKEMONS")},
     );
   }
 }
